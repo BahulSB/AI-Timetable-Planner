@@ -1,6 +1,6 @@
 import time
 from evaluator import evaluate_schedule
-from algorithms.local_utils import (
+from local_utils import (
     build_initial_schedule,
     generate_neighbor,
     score_schedule,
