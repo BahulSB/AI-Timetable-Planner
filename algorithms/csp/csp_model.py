@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 from csp_utils import get_group_id, get_id, is_unavailable, room_matches
 
 def build_variables(problem_data: dict) -> list:

@@ -1,4 +1,4 @@
-import time
+﻿import time
 from csp_model import build_variables, build_domains, conflicts
 from csp_utils import evaluate
 from backtracking import _search

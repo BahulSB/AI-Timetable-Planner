@@ -1,4 +1,4 @@
-import heapq
+﻿import heapq
 import itertools
 import time
 from typing import List, Tuple

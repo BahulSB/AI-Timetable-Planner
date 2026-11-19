@@ -1,4 +1,4 @@
-from backtracking import solve as backtracking_solve
+﻿from backtracking import solve as backtracking_solve
 from forward_checking import solve as forward_checking_solve
 
 # Small self-contained example. Replace this with the team's actual problem_data

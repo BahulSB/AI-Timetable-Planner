@@ -1,4 +1,4 @@
-from typing import List, Tuple
+﻿from typing import List, Tuple
 from data import Course, Slot
 from constraints import is_valid_assignment
 from cost_function import placement_cost

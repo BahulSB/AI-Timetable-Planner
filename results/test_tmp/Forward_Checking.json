@@ -1,0 +1,66 @@
+[
+  {
+    "course_id": "CS201_S1",
+    "course_name": "Subject_1_S1",
+    "faculty_id": "F01",
+    "batch_id": "BATCH_1",
+    "room_id": "LH_101",
+    "timeslot": "Mon_2"
+  },
+  {
+    "course_id": "CS201_S2",
+    "course_name": "Subject_1_S2",
+    "faculty_id": "F01",
+    "batch_id": "BATCH_1",
+    "room_id": "LH_101",
+    "timeslot": "Mon_3"
+  },
+  {
+    "course_id": "CS203_S1",
+    "course_name": "Subject_3_S1",
+    "faculty_id": "F03",
+    "batch_id": "BATCH_1",
+    "room_id": "LH_101",
+    "timeslot": "Mon_1"
+  },
+  {
+    "course_id": "CS203_S2",
+    "course_name": "Subject_3_S2",
+    "faculty_id": "F03",
+    "batch_id": "BATCH_1",
+    "room_id": "LH_101",
+    "timeslot": "Mon_4"
+  },
+  {
+    "course_id": "CS203_S3",
+    "course_name": "Subject_3_S3",
+    "faculty_id": "F03",
+    "batch_id": "BATCH_1",
+    "room_id": "LH_101",
+    "timeslot": "Mon_5"
+  },
+  {
+    "course_id": "CS202_S1",
+    "course_name": "Subject_2_S1",
+    "faculty_id": "F02",
+    "batch_id": "BATCH_2",
+    "room_id": "LH_101",
+    "timeslot": "Mon_6"
+  },
+  {
+    "course_id": "CS202_S2",
+    "course_name": "Subject_2_S2",
+    "faculty_id": "F02",
+    "batch_id": "BATCH_2",
+    "room_id": "LH_101",
+    "timeslot": "Tue_1"
+  },
+  {
+    "course_id": "CS202_S3",
+    "course_name": "Subject_2_S3",
+    "faculty_id": "F02",
+    "batch_id": "BATCH_2",
+    "room_id": "LH_101",
+    "timeslot": "Tue_2"
+  }
+]

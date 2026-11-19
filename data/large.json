@@ -1,0 +1,1073 @@
+{
+  "metadata": {
+    "dataset_name": "large",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "periods_per_day": 6
+  },
+  "timeslots": [
+    {
+      "id": "Mon_1",
+      "day": "Mon",
+      "period": 1,
+      "is_late": false
+    },
+    {
+      "id": "Mon_2",
+      "day": "Mon",
+      "period": 2,
+      "is_late": false
+    },
+    {
+      "id": "Mon_3",
+      "day": "Mon",
+      "period": 3,
+      "is_late": false
+    },
+    {
+      "id": "Mon_4",
+      "day": "Mon",
+      "period": 4,
+      "is_late": false
+    },
+    {
+      "id": "Mon_5",
+      "day": "Mon",
+      "period": 5,
+      "is_late": false
+    },
+    {
+      "id": "Mon_6",
+      "day": "Mon",
+      "period": 6,
+      "is_late": true
+    },
+    {
+      "id": "Tue_1",
+      "day": "Tue",
+      "period": 1,
+      "is_late": false
+    },
+    {
+      "id": "Tue_2",
+      "day": "Tue",
+      "period": 2,
+      "is_late": false
+    },
+    {
+      "id": "Tue_3",
+      "day": "Tue",
+      "period": 3,
+      "is_late": false
+    },
+    {
+      "id": "Tue_4",
+      "day": "Tue",
+      "period": 4,
+      "is_late": false
+    },
+    {
+      "id": "Tue_5",
+      "day": "Tue",
+      "period": 5,
+      "is_late": false
+    },
+    {
+      "id": "Tue_6",
+      "day": "Tue",
+      "period": 6,
+      "is_late": true
+    },
+    {
+      "id": "Wed_1",
+      "day": "Wed",
+      "period": 1,
+      "is_late": false
+    },
+    {
+      "id": "Wed_2",
+      "day": "Wed",
+      "period": 2,
+      "is_late": false
+    },
+    {
+      "id": "Wed_3",
+      "day": "Wed",
+      "period": 3,
+      "is_late": false
+    },
+    {
+      "id": "Wed_4",
+      "day": "Wed",
+      "period": 4,
+      "is_late": false
+    },
+    {
+      "id": "Wed_5",
+      "day": "Wed",
+      "period": 5,
+      "is_late": false
+    },
+    {
+      "id": "Wed_6",
+      "day": "Wed",
+      "period": 6,
+      "is_late": true
+    },
+    {
+      "id": "Thu_1",
+      "day": "Thu",
+      "period": 1,
+      "is_late": false
+    },
+    {
+      "id": "Thu_2",
+      "day": "Thu",
+      "period": 2,
+      "is_late": false
+    },
+    {
+      "id": "Thu_3",
+      "day": "Thu",
+      "period": 3,
+      "is_late": false
+    },
+    {
+      "id": "Thu_4",
+      "day": "Thu",
+      "period": 4,
+      "is_late": false
+    },
+    {
+      "id": "Thu_5",
+      "day": "Thu",
+      "period": 5,
+      "is_late": false
+    },
+    {
+      "id": "Thu_6",
+      "day": "Thu",
+      "period": 6,
+      "is_late": true
+    },
+    {
+      "id": "Fri_1",
+      "day": "Fri",
+      "period": 1,
+      "is_late": false
+    },
+    {
+      "id": "Fri_2",
+      "day": "Fri",
+      "period": 2,
+      "is_late": false
+    },
+    {
+      "id": "Fri_3",
+      "day": "Fri",
+      "period": 3,
+      "is_late": false
+    },
+    {
+      "id": "Fri_4",
+      "day": "Fri",
+      "period": 4,
+      "is_late": false
+    },
+    {
+      "id": "Fri_5",
+      "day": "Fri",
+      "period": 5,
+      "is_late": false
+    },
+    {
+      "id": "Fri_6",
+      "day": "Fri",
+      "period": 6,
+      "is_late": true
+    }
+  ],
+  "rooms": [
+    {
+      "id": "LH_101",
+      "capacity": 65,
+      "type": "lecture"
+    },
+    {
+      "id": "LH_102",
+      "capacity": 65,
+      "type": "lecture"
+    },
+    {
+      "id": "LH_103",
+      "capacity": 65,
+      "type": "lecture"
+    },
+    {
+      "id": "LH_104",
+      "capacity": 65,
+      "type": "lecture"
+    },
+    {
+      "id": "LH_105",
+      "capacity": 65,
+      "type": "lecture"
+    },
+    {
+      "id": "LH_106",
+      "capacity": 65,
+      "type": "lecture"
+    },
+    {
+      "id": "LAB_1",
+      "capacity": 35,
+      "type": "lab"
+    },
+    {
+      "id": "LAB_2",
+      "capacity": 35,
+      "type": "lab"
+    },
+    {
+      "id": "LAB_3",
+      "capacity": 35,
+      "type": "lab"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "F01",
+      "name": "Prof_1",
+      "unavailable_slots": [
+        "Wed_6",
+        "Fri_2",
+        "Tue_4"
+      ],
+      "unavailable_timeslots": [
+        "Wed_6",
+        "Fri_2",
+        "Tue_4"
+      ],
+      "preferred_slots": [
+        "Thu_4",
+        "Mon_1",
+        "Fri_6",
+        "Thu_5",
+        "Tue_1",
+        "Tue_3",
+        "Mon_2",
+        "Wed_2"
+      ]
+    },
+    {
+      "id": "F02",
+      "name": "Prof_2",
+      "unavailable_slots": [
+        "Wed_1",
+        "Thu_3",
+        "Mon_5"
+      ],
+      "unavailable_timeslots": [
+        "Wed_1",
+        "Thu_3",
+        "Mon_5"
+      ],
+      "preferred_slots": [
+        "Mon_3",
+        "Wed_5",
+        "Mon_1",
+        "Thu_1",
+        "Tue_3",
+        "Fri_4",
+        "Fri_6",
+        "Tue_1"
+      ]
+    },
+    {
+      "id": "F03",
+      "name": "Prof_3",
+      "unavailable_slots": [
+        "Fri_6",
+        "Fri_3",
+        "Thu_2"
+      ],
+      "unavailable_timeslots": [
+        "Fri_6",
+        "Fri_3",
+        "Thu_2"
+      ],
+      "preferred_slots": [
+        "Wed_5",
+        "Wed_1",
+        "Thu_4",
+        "Tue_6",
+        "Wed_6",
+        "Mon_3",
+        "Fri_4",
+        "Mon_1"
+      ]
+    },
+    {
+      "id": "F04",
+      "name": "Prof_4",
+      "unavailable_slots": [
+        "Tue_2",
+        "Fri_2",
+        "Thu_1"
+      ],
+      "unavailable_timeslots": [
+        "Tue_2",
+        "Fri_2",
+        "Thu_1"
+      ],
+      "preferred_slots": [
+        "Thu_6",
+        "Tue_4",
+        "Fri_4",
+        "Wed_3",
+        "Thu_3",
+        "Mon_4",
+        "Fri_5",
+        "Thu_2"
+      ]
+    },
+    {
+      "id": "F05",
+      "name": "Prof_5",
+      "unavailable_slots": [
+        "Fri_5",
+        "Mon_4",
+        "Thu_2"
+      ],
+      "unavailable_timeslots": [
+        "Fri_5",
+        "Mon_4",
+        "Thu_2"
+      ],
+      "preferred_slots": [
+        "Wed_5",
+        "Tue_5",
+        "Mon_6",
+        "Fri_4",
+        "Fri_2",
+        "Tue_4",
+        "Wed_6",
+        "Mon_3"
+      ]
+    },
+    {
+      "id": "F06",
+      "name": "Prof_6",
+      "unavailable_slots": [
+        "Mon_5",
+        "Tue_2",
+        "Thu_5"
+      ],
+      "unavailable_timeslots": [
+        "Mon_5",
+        "Tue_2",
+        "Thu_5"
+      ],
+      "preferred_slots": [
+        "Wed_1",
+        "Mon_4",
+        "Fri_4",
+        "Mon_1",
+        "Wed_4",
+        "Thu_1",
+        "Tue_6",
+        "Tue_1"
+      ]
+    },
+    {
+      "id": "F07",
+      "name": "Prof_7",
+      "unavailable_slots": [
+        "Wed_5",
+        "Thu_3",
+        "Mon_6"
+      ],
+      "unavailable_timeslots": [
+        "Wed_5",
+        "Thu_3",
+        "Mon_6"
+      ],
+      "preferred_slots": [
+        "Wed_6",
+        "Thu_6",
+        "Tue_6",
+        "Thu_1",
+        "Wed_4",
+        "Fri_1",
+        "Fri_4",
+        "Fri_3"
+      ]
+    },
+    {
+      "id": "F08",
+      "name": "Prof_8",
+      "unavailable_slots": [
+        "Tue_5",
+        "Mon_3",
+        "Mon_1"
+      ],
+      "unavailable_timeslots": [
+        "Tue_5",
+        "Mon_3",
+        "Mon_1"
+      ],
+      "preferred_slots": [
+        "Thu_6",
+        "Mon_6",
+        "Thu_1",
+        "Fri_4",
+        "Tue_6",
+        "Fri_3",
+        "Fri_2",
+        "Thu_4"
+      ]
+    },
+    {
+      "id": "F09",
+      "name": "Prof_9",
+      "unavailable_slots": [
+        "Tue_3",
+        "Fri_5",
+        "Thu_5"
+      ],
+      "unavailable_timeslots": [
+        "Tue_3",
+        "Fri_5",
+        "Thu_5"
+      ],
+      "preferred_slots": [
+        "Thu_6",
+        "Mon_6",
+        "Fri_6",
+        "Fri_4",
+        "Fri_2",
+        "Wed_6",
+        "Tue_5",
+        "Wed_3"
+      ]
+    },
+    {
+      "id": "F10",
+      "name": "Prof_10",
+      "unavailable_slots": [
+        "Thu_4",
+        "Tue_2",
+        "Fri_6"
+      ],
+      "unavailable_timeslots": [
+        "Thu_4",
+        "Tue_2",
+        "Fri_6"
+      ],
+      "preferred_slots": [
+        "Tue_1",
+        "Wed_5",
+        "Wed_1",
+        "Wed_3",
+        "Thu_3",
+        "Tue_5",
+        "Wed_6",
+        "Wed_2"
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "id": "BATCH_1",
+      "size": 60
+    },
+    {
+      "id": "BATCH_2",
+      "size": 60
+    },
+    {
+      "id": "BATCH_3",
+      "size": 50
+    },
+    {
+      "id": "BATCH_4",
+      "size": 50
+    },
+    {
+      "id": "BATCH_5",
+      "size": 60
+    },
+    {
+      "id": "BATCH_6",
+      "size": 60
+    }
+  ],
+  "courses": [
+    {
+      "id": "CS201_S1",
+      "course_code": "CS201",
+      "name": "Subject_1_S1",
+      "faculty_id": "F01",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS201_S2",
+      "course_code": "CS201",
+      "name": "Subject_1_S2",
+      "faculty_id": "F01",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS201_S3",
+      "course_code": "CS201",
+      "name": "Subject_1_S3",
+      "faculty_id": "F01",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS202_S1",
+      "course_code": "CS202",
+      "name": "Subject_2_S1",
+      "faculty_id": "F02",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS202_S2",
+      "course_code": "CS202",
+      "name": "Subject_2_S2",
+      "faculty_id": "F02",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS202_S3",
+      "course_code": "CS202",
+      "name": "Subject_2_S3",
+      "faculty_id": "F02",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS203_S1",
+      "course_code": "CS203",
+      "name": "Subject_3_S1",
+      "faculty_id": "F03",
+      "batch_id": "BATCH_3",
+      "student_group_id": "BATCH_3",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS203_S2",
+      "course_code": "CS203",
+      "name": "Subject_3_S2",
+      "faculty_id": "F03",
+      "batch_id": "BATCH_3",
+      "student_group_id": "BATCH_3",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS203_S3",
+      "course_code": "CS203",
+      "name": "Subject_3_S3",
+      "faculty_id": "F03",
+      "batch_id": "BATCH_3",
+      "student_group_id": "BATCH_3",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS204_S1",
+      "course_code": "CS204",
+      "name": "Subject_4_S1",
+      "faculty_id": "F04",
+      "batch_id": "BATCH_4",
+      "student_group_id": "BATCH_4",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS204_S2",
+      "course_code": "CS204",
+      "name": "Subject_4_S2",
+      "faculty_id": "F04",
+      "batch_id": "BATCH_4",
+      "student_group_id": "BATCH_4",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS205_S1",
+      "course_code": "CS205",
+      "name": "Subject_5_S1",
+      "faculty_id": "F05",
+      "batch_id": "BATCH_5",
+      "student_group_id": "BATCH_5",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS205_S2",
+      "course_code": "CS205",
+      "name": "Subject_5_S2",
+      "faculty_id": "F05",
+      "batch_id": "BATCH_5",
+      "student_group_id": "BATCH_5",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS206_S1",
+      "course_code": "CS206",
+      "name": "Subject_6_S1",
+      "faculty_id": "F06",
+      "batch_id": "BATCH_6",
+      "student_group_id": "BATCH_6",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS206_S2",
+      "course_code": "CS206",
+      "name": "Subject_6_S2",
+      "faculty_id": "F06",
+      "batch_id": "BATCH_6",
+      "student_group_id": "BATCH_6",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS206_S3",
+      "course_code": "CS206",
+      "name": "Subject_6_S3",
+      "faculty_id": "F06",
+      "batch_id": "BATCH_6",
+      "student_group_id": "BATCH_6",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS207_S1",
+      "course_code": "CS207",
+      "name": "Subject_7_S1",
+      "faculty_id": "F07",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS207_S2",
+      "course_code": "CS207",
+      "name": "Subject_7_S2",
+      "faculty_id": "F07",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS207_S3",
+      "course_code": "CS207",
+      "name": "Subject_7_S3",
+      "faculty_id": "F07",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS208_S1",
+      "course_code": "CS208",
+      "name": "Subject_8_S1",
+      "faculty_id": "F08",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS208_S2",
+      "course_code": "CS208",
+      "name": "Subject_8_S2",
+      "faculty_id": "F08",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS209_S1",
+      "course_code": "CS209",
+      "name": "Subject_9_S1",
+      "faculty_id": "F09",
+      "batch_id": "BATCH_3",
+      "student_group_id": "BATCH_3",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS209_S2",
+      "course_code": "CS209",
+      "name": "Subject_9_S2",
+      "faculty_id": "F09",
+      "batch_id": "BATCH_3",
+      "student_group_id": "BATCH_3",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS210_S1",
+      "course_code": "CS210",
+      "name": "Subject_10_S1",
+      "faculty_id": "F10",
+      "batch_id": "BATCH_4",
+      "student_group_id": "BATCH_4",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS210_S2",
+      "course_code": "CS210",
+      "name": "Subject_10_S2",
+      "faculty_id": "F10",
+      "batch_id": "BATCH_4",
+      "student_group_id": "BATCH_4",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS211_S1",
+      "course_code": "CS211",
+      "name": "Subject_11_S1",
+      "faculty_id": "F01",
+      "batch_id": "BATCH_5",
+      "student_group_id": "BATCH_5",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS211_S2",
+      "course_code": "CS211",
+      "name": "Subject_11_S2",
+      "faculty_id": "F01",
+      "batch_id": "BATCH_5",
+      "student_group_id": "BATCH_5",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS211_S3",
+      "course_code": "CS211",
+      "name": "Subject_11_S3",
+      "faculty_id": "F01",
+      "batch_id": "BATCH_5",
+      "student_group_id": "BATCH_5",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS212_S1",
+      "course_code": "CS212",
+      "name": "Subject_12_S1",
+      "faculty_id": "F02",
+      "batch_id": "BATCH_6",
+      "student_group_id": "BATCH_6",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS212_S2",
+      "course_code": "CS212",
+      "name": "Subject_12_S2",
+      "faculty_id": "F02",
+      "batch_id": "BATCH_6",
+      "student_group_id": "BATCH_6",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS213_S1",
+      "course_code": "CS213",
+      "name": "Subject_13_S1",
+      "faculty_id": "F03",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS213_S2",
+      "course_code": "CS213",
+      "name": "Subject_13_S2",
+      "faculty_id": "F03",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS213_S3",
+      "course_code": "CS213",
+      "name": "Subject_13_S3",
+      "faculty_id": "F03",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS214_S1",
+      "course_code": "CS214",
+      "name": "Subject_14_S1",
+      "faculty_id": "F04",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS214_S2",
+      "course_code": "CS214",
+      "name": "Subject_14_S2",
+      "faculty_id": "F04",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS214_S3",
+      "course_code": "CS214",
+      "name": "Subject_14_S3",
+      "faculty_id": "F04",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS215_S1",
+      "course_code": "CS215",
+      "name": "Subject_15_S1",
+      "faculty_id": "F05",
+      "batch_id": "BATCH_3",
+      "student_group_id": "BATCH_3",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS215_S2",
+      "course_code": "CS215",
+      "name": "Subject_15_S2",
+      "faculty_id": "F05",
+      "batch_id": "BATCH_3",
+      "student_group_id": "BATCH_3",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS216_S1",
+      "course_code": "CS216",
+      "name": "Subject_16_S1",
+      "faculty_id": "F06",
+      "batch_id": "BATCH_4",
+      "student_group_id": "BATCH_4",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS216_S2",
+      "course_code": "CS216",
+      "name": "Subject_16_S2",
+      "faculty_id": "F06",
+      "batch_id": "BATCH_4",
+      "student_group_id": "BATCH_4",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS216_S3",
+      "course_code": "CS216",
+      "name": "Subject_16_S3",
+      "faculty_id": "F06",
+      "batch_id": "BATCH_4",
+      "student_group_id": "BATCH_4",
+      "enrollment": 50,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS217_S1",
+      "course_code": "CS217",
+      "name": "Subject_17_S1",
+      "faculty_id": "F07",
+      "batch_id": "BATCH_5",
+      "student_group_id": "BATCH_5",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS217_S2",
+      "course_code": "CS217",
+      "name": "Subject_17_S2",
+      "faculty_id": "F07",
+      "batch_id": "BATCH_5",
+      "student_group_id": "BATCH_5",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS218_S1",
+      "course_code": "CS218",
+      "name": "Subject_18_S1",
+      "faculty_id": "F08",
+      "batch_id": "BATCH_6",
+      "student_group_id": "BATCH_6",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS218_S2",
+      "course_code": "CS218",
+      "name": "Subject_18_S2",
+      "faculty_id": "F08",
+      "batch_id": "BATCH_6",
+      "student_group_id": "BATCH_6",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS219_S1",
+      "course_code": "CS219",
+      "name": "Subject_19_S1",
+      "faculty_id": "F09",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS219_S2",
+      "course_code": "CS219",
+      "name": "Subject_19_S2",
+      "faculty_id": "F09",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS219_S3",
+      "course_code": "CS219",
+      "name": "Subject_19_S3",
+      "faculty_id": "F09",
+      "batch_id": "BATCH_1",
+      "student_group_id": "BATCH_1",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS220_S1",
+      "course_code": "CS220",
+      "name": "Subject_20_S1",
+      "faculty_id": "F10",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS220_S2",
+      "course_code": "CS220",
+      "name": "Subject_20_S2",
+      "faculty_id": "F10",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    },
+    {
+      "id": "CS220_S3",
+      "course_code": "CS220",
+      "name": "Subject_20_S3",
+      "faculty_id": "F10",
+      "batch_id": "BATCH_2",
+      "student_group_id": "BATCH_2",
+      "enrollment": 60,
+      "sessions_per_week": 1,
+      "required_room_type": "lecture"
+    }
+  ]
+}

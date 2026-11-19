@@ -1,4 +1,4 @@
-from data import create_sample_courses, create_slots
+﻿from data import create_sample_courses, create_slots
 from astar import a_star_search
 from greedy_best_first import greedy_best_first_search
 from evaluation import display_timetable, display_comparison
